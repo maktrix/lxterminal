@@ -1369,7 +1369,7 @@ LXTerminal * lxterminal_initialize(LXTermWindow * lxtermwin, CommandArguments * 
         GdkColormap *colormap = gdk_screen_get_rgba_colormap(gtk_widget_get_screen(GTK_WIDGET(terminal->window)));
         if (colormap != NULL)
         {
-            gtk_widget_set_colormap(terminal->window, colormap);
+            //gtk_widget_set_colormap(terminal->window, colormap);
         }
     #endif
 
